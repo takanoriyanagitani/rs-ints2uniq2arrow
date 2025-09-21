@@ -1,0 +1,26 @@
+[package]
+name = "rs-ints2uniq2arrow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[features]
+default = [
+	"fs",
+	"fs_macro_file2ints",
+	"fs_macro_reader2ints",
+]
+
+fs = [
+]
+
+fs_macro_file2ints = [
+]
+
+fs_macro_reader2ints = [
+]
