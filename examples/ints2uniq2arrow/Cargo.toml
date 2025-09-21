@@ -1,0 +1,11 @@
+[package]
+name = "ints2uniq2arrow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-ints2uniq2arrow]
+path = "../.."
+default-features = false
+features = [
+	"fs",
+]
