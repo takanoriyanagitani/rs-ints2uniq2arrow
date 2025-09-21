@@ -3,6 +3,13 @@ name = "rs-ints2uniq2arrow"
 version = "0.1.0"
 edition = "2024"
 
+description = "Creates an array of unique integers from the integers."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-ints2uniq2arrow"
+homepage = "https://github.com/takanoriyanagitani/rs-ints2uniq2arrow"
+documentation = "https://docs.rs/rs-ints2uniq2arrow/latest"
+keywords = ["integers", "unique", "array", "arrow"]
+
 [dependencies.arrow]
 version = "56"
 default-features = false
